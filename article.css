@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  #back_button {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  #article {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .article-title {
+    margin-top: 0;
+    direction: rtl;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .article-content {
+    line-height: 1.6;
+    direction: rtl;
+    font-size: 22px;
+  }
+  
+  video {
+    max-width: 100%;
+    height: auto;
+  }

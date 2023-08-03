@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dynamic Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="gallery.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>♥ Asaf & Agam</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">בית</a></li>
+        <li><a href="index.html#about">קצת על אגם</a></li>
+        <li><a href="gallery.html">גלריה</a></li>
+        <li><a href="index.html#articles">כתבות</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="gallery">
+      <div id="imageContainer"></div>
+    </section>
+  </div>
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImage" src="" alt="תמונה">
+      <span id="modalText"></span>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2023 Asaf Magen</p>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+
+</html>
