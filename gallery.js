@@ -1,7 +1,6 @@
 // script.js
 window.addEventListener('DOMContentLoaded', (event) => {
   const imageContainer = document.querySelector('#imageContainer');
-
   
   const images = [
     { src: 'pictures/first_date1.jpg', text: ' החוויה שלי מהדייט הראשון שלנו היא מיוחדת, אני זוכר את הדייט הראשון שלנו כמדהים. זה כלל פגישה ואזהרות מאבא שלך, פגישה עם אבא שלי באמצע הכביש באוטובוס והכי חשוב ביטלת לחברים שלך בשבילי, היה לנו חיבור מדהים מהרגע הראשון וכבר בדייט הראשון זה הרגיש לי נכון, במיוחד ברגע שלנו שנלקח מהטיטאניק' },
